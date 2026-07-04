@@ -60,10 +60,20 @@ export default function Project() {
               ))}
             </ul>
             <div style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
-              <a href="#" className="btn ghost">
+              <a
+                href="https://github.com/Ultrama02/incident-whisperer"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn ghost"
+              >
                 View on GitHub →
               </a>
-              <a href="#" className="btn ghost">
+              <a
+                href="https://incident-whisperer.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn ghost"
+              >
                 Live demo →
               </a>
             </div>
